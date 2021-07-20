@@ -1,24 +1,24 @@
-# Flan Swap UIkit
+# Hora Swap UIkit
 
-**This repository is not used anymore. See the [https://github.com/FlanSwap/FlanSwap-toolkit](FlanSwap toolkit) instead**
+**This repository is not used anymore. See the [https://github.com/HoraSwap/HoraSwap-toolkit](HoraSwap toolkit) instead**
 
-[![Version](https://img.shields.io/npm/v/flanswap-libs-uikit)](https://www.npmjs.com/package/flanswap-libs-uikit) [![Size](https://img.shields.io/bundlephobia/min/flanswap-libs-uikit)](https://www.npmjs.com/package/flanswap-libs-uikit)
+[![Version](https://img.shields.io/npm/v/horaswap-libs-uikit)](https://www.npmjs.com/package/horaswap-libs-uikit) [![Size](https://img.shields.io/bundlephobia/min/horaswap-libs-uikit)](https://www.npmjs.com/package/horaswap-libs-uikit)
 
-FlanSwap UIkit is a set of React components and hooks used to build pages on FlanSwap's apps. It also contains a theme file for dark and light mode.
+HoraSwap UIkit is a set of React components and hooks used to build pages on HoraSwap's apps. It also contains a theme file for dark and light mode.
 
 ## Install 
 
-`yarn add flanswap-libs-uikit`
+`yarn add horaswap-libs-uikit`
 
 ## Setup
 
 ### Theme
 
-Before using FlanSwap UIkit, you need to provide the theme file to styled-component.
+Before using HoraSwap UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from 'flanswap-libs-uikit'
+import { light, dark } from 'horaswap-libs-uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -28,7 +28,7 @@ import { light, dark } from 'flanswap-libs-uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from 'flanswap-libs-uikit'
+import { ResetCSS } from 'horaswap-libs-uikit'
 ...
 <ResetCSS />
 ```

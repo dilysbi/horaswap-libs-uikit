@@ -35,6 +35,7 @@ const MenuEntry = styled.div<Props>`
   color: ${({ theme }) => theme.colors.textSubtle};
   box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
   position: relative;
+  font-weight: 500;
 
   a {
     display: flex;

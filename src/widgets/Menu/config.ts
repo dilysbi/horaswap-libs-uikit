@@ -42,7 +42,7 @@ export const links = [
   },
   {
     label: "Earning",
-    icon: "TicketIcon",
+    icon: "EarningIcon",
     att: "SOON",
     href: "#",
   },
@@ -53,8 +53,8 @@ export const links = [
     href: "#",
   },
   {
-    label: "FLAN Gallery",
-    icon: "FlanIcon",
+    label: "HORA Gallery",
+    icon: "GalleryIcon",
     att: "SOON",
     href: "#",
   },

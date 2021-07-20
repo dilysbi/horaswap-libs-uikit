@@ -90,8 +90,8 @@ const BoxBSC = styled.div<{ type: string }>`
   justify-content: center;
   font-weight: bold;
 
-  color: #954306;
-  background: rgba(197, 131, 95, 0.5);
+  color: #ffffff;
+  background: #59C1E9;
 `
 
 const Menu: React.FC<NavProps> = ({

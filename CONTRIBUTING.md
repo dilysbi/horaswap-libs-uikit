@@ -1,4 +1,4 @@
-# Contributing to the Flanswap
+# Contributing to the Horaswap
 
 Thanks for taking the time to contribute !
 You can start by reading our [Contribution guidelines](https://docs.flanswap.finance/code/contributing) first.
