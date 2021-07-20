@@ -37,7 +37,7 @@ const BlockIcon = styled.div`
   left: 50%;
   font-size: 10px;
   color: #fc0909;
-`;
+`; 
 
 const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
   const location = useLocation();
@@ -71,7 +71,6 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
             >
               {isPushed &&
                 entry.items.map((item, index) => ( 
-                  // eslint-disable-next-line react/no-array-index-key
                   <MenuEntry key={`children-${item.href}-${index}`} secondary isActive={item.href === location.pathname} onClick={handleClick}>
                     <MenuLink href={item.href} target={item.target}>
                       {item.label}

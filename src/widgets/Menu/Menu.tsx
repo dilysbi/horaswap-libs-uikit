@@ -8,7 +8,6 @@ import { useMatchBreakpoints } from "../../hooks";
 import Logo from "./components/Logo";
 import Panel from "./components/Panel"; 
 import UserBlock from "./components/UserBlock";
-// import ContentNav from "./components/ContentNav";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
@@ -148,7 +147,7 @@ const Menu: React.FC<NavProps> = ({
 
   return (
     <Wrapper>
-      {/* Header top */}
+      {/* ========= Header top ========= */}
       <StyledNav showMenu={showMenu}>
         <Logo
           isMobile={isMobile}
@@ -157,26 +156,6 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           href={homeLink?.href ?? "/"}
         />
-        {/* {!isMobile && (
-          <>
-            <ContentNav
-              isPushed={isPushed}
-              isMobile={isMobile}
-              isDark={isDark}
-              toggleTheme={toggleTheme}
-              langs={langs}
-              setLang={setLang}
-              currentLang={currentLang}
-              cakePriceUsd={cakePriceUsd}
-              pushNav={setIsPushed}
-              links={links}
-            />
-            <StyledDivBoxLan>
-              <Guide />
-              <LangSelector position="bottom" currentLang={currentLang} langs={langs} setLang={setLang} />
-            </StyledDivBoxLan>
-          </>
-        )} */}
         <Flex>
           <BoxBSC type="1">
             BSC
@@ -188,10 +167,10 @@ const Menu: React.FC<NavProps> = ({
           </BoxBSC>
         </Flex>
       </StyledNav>
-      {/* Sidebar and content */}
+      {/* ========= Sidebar and content ========= */}
       <BodyWrapper>
 
-        {/* Sidebar */}
+        {/* ========= Sidebar ========= */}
         <Panel
           isPushed={isPushed}
           isMobile={isMobile}
@@ -199,14 +178,14 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           toggleTheme={toggleTheme}
           langs={langs}
-          setLang={setLang}
+          setLang={setLang} 
           currentLang={currentLang}
           cakePriceUsd={cakePriceUsd}
           pushNav={setIsPushed}
           links={links}
         />
 
-        {/* Content */}
+        {/* ========= Content ========= */}
         <Inner isPushed={isPushed} showMenu={showMenu}>
           {children}
         </Inner>

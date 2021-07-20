@@ -1,6 +1,6 @@
 {
   "name": "horaswap-libs-uikit",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "description": "Set of UI components for horaswap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
